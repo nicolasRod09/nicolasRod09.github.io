@@ -6,6 +6,13 @@
     color: rgb(0, 28, 85);
     text-align: center;
 }
+#imagem{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    display: block;
+    top: 50px;
+}
 body{
     background-color: rgb(166, 225, 250);
 }  
