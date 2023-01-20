@@ -1,17 +1,25 @@
+body{
+    background-color: rgb(166, 225, 250);
+}  
+
 .color-texts {
     color: rgb(0, 28, 85);
     text-align: center;
     }
+
 #centraliza{
     color: rgb(0, 28, 85);
     text-align: center;
-}
+    }
+
 #imagem{
     width: 300px;
     height: 400px;
-    margin: auto;
+    margin:0px;
     display: block;
+    }
+
+div {
+    border: 2px solid black;
+    float: left;
 }
-body{
-    background-color: rgb(166, 225, 250);
-}  
