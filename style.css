@@ -16,8 +16,10 @@ h1{
     position: absolute;
     color: rgb(0, 28, 85);
     text-align: center;
-    top: 40%;
-}
+    top: 5%;
+    left: 350px;
+    right: 350px;
+    }
 
 .barra {
     background-color: rgb(0, 7, 45);
@@ -25,9 +27,17 @@ h1{
 }
 
 .color-texts {
+    font-family: 'Roboto Condensed', sans-serif;
     color: rgb(0, 28, 85);
+    width: max-content;
+    /*padding-left: 900px; */
+    
+    position: absolute;
     text-align: center;
-    }
+    top: 43%;
+    left: 46.7%;
+    right: 47%;
+}
 
 .centraliza{
     color: rgb(0, 28, 85);
@@ -37,12 +47,6 @@ h1{
 .img-conteiner{
     height: 400px;
     position: relative;
-}
-
-#contexto {
-    font-family: 'Roboto Condensed', sans-serif;
-    color: rgb(0, 28, 85);
-    text-align: center;
 }
 
 #imagem{
@@ -55,7 +59,9 @@ h1{
     background-color: rgb(10, 57, 124);
     }
 
-
+ul li:nth-child(odd) {
+    border: 1px solid rgb(0, 7, 45);
+}
 
 div {
     text-align: center;
