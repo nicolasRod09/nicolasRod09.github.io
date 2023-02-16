@@ -1,37 +1,135 @@
 <!DOCTYPE html>
-    <html lang="pt-br">
-        <head>
-            <meta charset="UTF-8">
-            <title>Portfólio de Nícolas S. Rodrigues</title>
-            <link rel="stylesheet" href="./style.css">
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-        </head>
-            <div>
-                <h1 class="barra"> Nícolas dos Santos Rodrigues</h1>
-                <h2>Sobre mim:</h2>
-                <div class="img-conteiner">
-                    <img src="image/WhatsApp Image 2023-01-18 at 16.06.24.jpeg" alt="Foto de Nícolas S. Rodrigues" id="imagem">
-                    <p class="sobre-mim">Olá, meu nome é <strong>Nícolas</strong> tenho <strong>19</strong> anos, nascido em São Paulo capital, me mudei para uma cidade chamada Timburi, no interior de São Paulo, e por lá vivi até meus 17 anos de idade, quando me mudei para Belo Horizonte junto com meu pai e irmã. Sempre gostei muito de <b>tecnologia</b> , mas foi só depois de fazer um semestre de ensino técnico em química que realmente percebi o quanto gostava e a forma que a enxergava em minha vida. À algum tempo a tecnologia se tornou algo primordial e que compõe nossa vida cotidiana, de forma que possa ser vista talvez da mesma forma que vemos a <b>química</b>, <i>tendo em vista que assim como moléculas celulares, a tecnologia compõe tudo o que fazemos e tocamos</i>.
-                    Em dezembro de 2021, após concluir o ensino médio, me mudei para Belo Horizonte - MG, e foi aí que tive meu primeiro contato com o mundo da programação. Após conhecer um familiar que trabalha na área de programação como engenheiro de software e em certo momento, me interessei pelo assunto e foi aí que realmente comecei a enxergar este mundo tecnológico como possibilidade para meu futuro.</p>
-                </div>
-            </div>
-            <h3 class="color-texts">Competências:</h3>
-                <ul id="lista">
-                    <li>Inglês avançado</li>
-                    <li>HTML básico</li> 
-                    <li>CSS básico</li> 
-                    <li>Java Script básico</li>
-                </ul>
-            <h3 class="centraliza">Mais sobre mim:</h3>
-            <ul id="personalize-texts">
-                <li> <a href="http://www.linkedin.com/in/nícolas-s-rodrigues-571362247" target="_blank"> Meu linkedin.</a></li> 
-                <li> <a href="https://programadoresbrasil.com.br/" target="_blank">Blog massa que acompanho.</a></li> 
-            </ul>
+<html lang="pt-br">
 
-        </body>
-    </html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trybewarts</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <img class="trybewarts-header-logo" src="/images/trybewarts-header-logo.svg">
+        <h1 id="trybewarts-header-title">Trybewarts</h1>
+        <div id="login-div">
+            <form action="" class="trybewarts-login">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="password" name="password" id="password" placeholder="Senha">
+
+                <button id="login-btn">Entrar</button>
+            </form>
+        </div>
+    </header>
+    <main>
+        <div id="form">
+            <form action="" id="evaluation-form">
+                <h2 id="forms-title">Formulário de avaliação</h2>
+                <section>
+                    <div id="names-n-houses">
+                        <div id="name-lastname">
+                            <input type="text" id="input-name" placeholder="Nome">
+                            <input type="text" id="input-lastname" placeholder="Sobrenome">
+                        </div>
+                        <div id="houses-n-email">
+                            <input type="email" name="" id="input-email" placeholder="Email">
+                            <section id="houses-and-techs">
+                                <label for="house" id="house-text">Casa: </label>
+                                <select name="" id="house">
+                                    <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+                                    <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                                    <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                                    <option value="Pytherina" id="pytherina-house">Pytherina</option>
+                                </select>
+                            </section>
+                        </div>
+                    </div>
+                    <hr>
+                    <section id="techs-and-subjects">
+                        <section>
+                            <div id="techs">
+                                <label for="name" id="label-family">Qual sua família?</label>
+                                <div id="family-names">
+                                    <input type="radio" name="family" value="Frontend" id="">
+                                    <label for="family">Frontend</label><br>
+                                    <input type="radio" name="family" value="Backend" id="">
+                                    <label for="family">Backend</label><br>
+                                    <input type="radio" name="family" value="FullStack" id="">
+                                    <label for="family">FullStack</label><br>
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <div id="subjects">
+                                <label for="subject" id="label-content">Qual conteúdo você está com mais vontade de
+                                    aprender?</label><br>
+                                <div id="subjects-names">
+                                    <input type="checkbox" value="HoFs" class="subject">
+                                    <label for="subject">HoFs</label>
+                                    <input type="checkbox" value="Jest" class="subject">
+                                    <label for="subject">Jest</label>
+                                    <input type="checkbox" value="Promises" class="subject">
+                                    <label for="subject">Promises</label><br>
+                                    <input type="checkbox" value="React" class="subject">
+                                    <label for="subject">React</label>
+                                    <input type="checkbox" value="SQL" class="subject">
+                                    <label for="subject">SQL</label>
+                                    <input type="checkbox" value="Python" class="subject">
+                                    <label for="subject">Python</label><br>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+                    <hr>
+                    <div id="second-part">
+                        <section id="evaluation">
+                            <label id="label-rate">Como você avalia a Trybewarts?</label> <br>
+                            <input type="radio" name="rate" value="1" id="">
+                            <label for="rate">1</label>
+                            <input type="radio" name="rate" value="2" id="">
+                            <label for="rate">2</label>
+                            <input type="radio" name="rate" value="3" id="">
+                            <label for="rate">3</label>
+                            <input type="radio" name="rate" value="4" id="">
+                            <label for="rate">4</label>
+                            <input type="radio" name="rate" value="5" id="">
+                            <label for="rate">5</label>
+                            <input type="radio" name="rate" value="6" id="">
+                            <label for="rate">6</label>
+                            <input type="radio" name="rate" value="7" id="">
+                            <label for="rate">7</label>
+                            <input type="radio" name="rate" value="8" id="">
+                            <label for="rate">8</label>
+                            <input type="radio" name="rate" value="9" id="">
+                            <label for="rate">9</label>
+                            <input type="radio" name="rate" value="10" id="">
+                            <label for="rate">10</label>
+                        </section>
+                        <section>
+                            <label for="textarea" class="textarea">Deixe seu comentário:</label><br>
+                            <textarea name="comment" id="textarea" maxlength="500"></textarea>
+                            <span id="counter">500</span>
+                            <br>
+                            <label for="agreement" id="label-infos">Você concorda com o uso das informações
+                                acima?</label>
+                            <input type="checkbox" name="agreement" id="agreement">
+                        </section>
+                        <button type="submit" id="submit-btn">Enviar</button>
+            </form>
+        </div>
+        </div>
+        <div id="main-image">
+            <img id="trybewarts-forms-logo" src="./images/trybewarts-colored.svg" alt="Logo da Trybewarts">
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Direitos reservados à Trybewarts©</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
