@@ -1,197 +1,197 @@
 @font-face {
-  font-family: Hogwarts;
-  src: url('MagicSchool.ttf');
-}
-
-body {
-  position: absolute;
-  width: 100%;
-  background-image: url('/images/bg.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  font-size: 20px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-header {
-  display: flex;
-  background-color: rgb(50, 167, 145);
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  text-align: center;
-  padding: 10px 20px;
-}
-
-h1 {
-  font-family: Hogwarts, serif;
-  font-size: 90px;
-  font-weight: 400;
-  color: white;
-  text-align: center;
-}
-
-.trybewarts-header-logo {
-  width: 100px;
-}
-
-input {
-  padding: 5px 10px;
-  margin-bottom: 4px;
-  margin-right: 4px;
-  border: none;
-  border-radius: 10px;
-  font-size: 1rem;
-}
-
-button {
-  padding: 10px 20px;
-  background-color: rgb(16, 68, 59);
-  color: white;
-  border: none;
-  margin: 1px;
-  border-radius: 50px;
-  transition: 0.3s;
-  font-size: 1rem;
-}
-
-button:hover {
-  background-color: rgb(28, 92, 82);
-  cursor: pointer;
-}
-
-main {
-  display: flex;
-  color: rgb(5, 105, 80);
-  margin-bottom: 80px;
-  justify-content: center;
-  align-items: center;
-  width: 95%;
-}
-
-form {
-  display: flex;
-}
-
-#evaluation-form {
-  display: flex;
-  padding: 20px;
-  background-color: rgba(250, 235, 215, 0.709);
-  width: 675px;
-  border-radius: 20px;
-  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.139);
-  align-content: center;
-  flex-direction: column;
-  transform: translateY(17%);
-}
-
-#trybewarts-forms-logo {
-  height: 500px;
-  margin-left: 5%;
-  margin-top: 40%;
-  transform: translateX(10%);
-}
-
-#houses {
-  display: flex;
-  padding-left: 10px;
-}
-
-#name-lastname {
-  display: flex;
-}
-
-#input-lastname {
-  margin-left: 10px;
-}
-
-.footer {
-  background-color: rgb(50, 167, 145);
-  text-align: center;
-  position: relative;
-  padding: 80px;
-  width: 100%;
-  height: 2.5rem;
-  bottom: 0;
-  left: 0;
-  transform: translateY(82%);
-}
-
-.trybewarts-login {
-  display: flex;
-  padding-right: 30px;
-  width: 30%;
-}
-
-#email {
-  border-radius: 3.5px;
-}
-
-#password {
-  border-radius: 3.5px;
-  margin-left: 5px;
-}
-
-#login-div {
-  padding: 10px;
-}
-
-#houses-n-email {
-  display: flex;
-}
-
-#forms-title {
-  text-align: center;
-  justify-content: center;
-  padding: 30px;
-  font-family: MedievalSharp, cursive;
-}
-
-#techs-and-subjects {
-  display: flex;
-  margin: 20px;
-  justify-content: space-between;
-  margin-left: 30px;
-}
-
-#techs {
-  display: flex;
-  flex-direction: column;
-  margin-right: 40px;
-}
-
-#subjects {
-  margin-left: 120px;
-}
-
-#house-text {
-  padding: 10px;
-}
-
-#names-n-houses {
-  padding-left: 70px;
-  padding-bottom: 20px;
-}
-
-#subjects-names {
-  margin-top: 10px;
-}
-
-#family-names {
-  margin-top: 5px;
-}
-
-#second-part {
-  padding: 15px;
-  text-align: center;
-}
-
-#textarea {
-  margin-left: 36px;   
-}
+    font-family: Hogwarts;
+    src: url('MagicSchool.ttf');
+  }
+  
+  body {
+    position: absolute;
+    width: 100%;
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 20px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    display: flex;
+    background-color: rgb(50, 167, 145);
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px;
+  }
+  
+  h1 {
+    font-family: Hogwarts, serif;
+    font-size: 90px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+  }
+  
+  .trybewarts-header-logo {
+    width: 100px;
+  }
+  
+  input {
+    padding: 5px 10px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: rgb(16, 68, 59);
+    color: white;
+    border: none;
+    margin: 1px;
+    border-radius: 50px;
+    transition: 0.3s;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    background-color: rgb(28, 92, 82);
+    cursor: pointer;
+  }
+  
+  main {
+    display: flex;
+    color: rgb(5, 105, 80);
+    margin-bottom: 80px;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+  }
+  
+  form {
+    display: flex;
+  }
+  
+  #evaluation-form {
+    display: flex;
+    padding: 20px;
+    background-color: rgba(250, 235, 215, 0.709);
+    width: 675px;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.139);
+    align-content: center;
+    flex-direction: column;
+    transform: translateY(17%);
+  }
+  
+  #trybewarts-forms-logo {
+    height: 500px;
+    margin-left: 5%;
+    margin-top: 40%;
+    transform: translateX(10%);
+  }
+  
+  #houses {
+    display: flex;
+    padding-left: 10px;
+  }
+  
+  #name-lastname {
+    display: flex;
+  }
+  
+  #input-lastname {
+    margin-left: 10px;
+  }
+  
+  .footer {
+    background-color: rgb(50, 167, 145);
+    text-align: center;
+    position: relative;
+    padding: 80px;
+    width: 100%;
+    height: 2.5rem;
+    bottom: 0;
+    left: 0;
+    transform: translateY(82%);
+  }
+  
+  .trybewarts-login {
+    display: flex;
+    padding-right: 30px;
+    width: 30%;
+  }
+  
+  #email {
+    border-radius: 3.5px;
+  }
+  
+  #password {
+    border-radius: 3.5px;
+    margin-left: 5px;
+  }
+  
+  #login-div {
+    padding: 10px;
+  }
+  
+  #houses-n-email {
+    display: flex;
+  }
+  
+  #forms-title {
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    font-family: MedievalSharp, cursive;
+  }
+  
+  #techs-and-subjects {
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+    margin-left: 30px;
+  }
+  
+  #techs {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+  }
+  
+  #subjects {
+    margin-left: 120px;
+  }
+  
+  #house-text {
+    padding: 10px;
+  }
+  
+  #names-n-houses {
+    padding-left: 70px;
+    padding-bottom: 20px;
+  }
+  
+  #subjects-names {
+    margin-top: 10px;
+  }
+  
+  #family-names {
+    margin-top: 5px;
+  }
+  
+  #second-part {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  #textarea {
+    margin-left: 36px;   
+  }
